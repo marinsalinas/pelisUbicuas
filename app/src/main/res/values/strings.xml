@@ -8,4 +8,9 @@
     <string name="title_activity_categorias">categorias</string>
     <string name="title_activity_informacion">InformacionActivity</string>
     <string name="perfil_password_val">Debes elegir un perfil y escribir cualquier contraseña</string>
+    <string name="seguro_cerrar">Estas seguro de cerrar la aplicación</string>
+    <string name="Si">Si</string>
+    <string name="No">No</string>
+    <string name="exit">Salir</string>
+    <string name="enviado">Enviado...!!</string>
 </resources>

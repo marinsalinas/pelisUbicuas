@@ -86,9 +86,9 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        new AlertDialog.Builder(this).setIcon(android.R.drawable.ic_dialog_alert).setTitle("Exit")
-                .setMessage("Estas seguro de cerrar la aplicación")
-                .setPositiveButton("Si", new DialogInterface.OnClickListener() {
+        new AlertDialog.Builder(this).setIcon(android.R.drawable.ic_dialog_alert).setTitle(R.string.exit)
+                .setMessage(R.string.seguro_cerrar)
+                .setPositiveButton(R.string.Si, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
 
@@ -98,7 +98,7 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(intent);
                         finish();
                     }
-                }).setNegativeButton("No", null).show();
+                }).setNegativeButton(R.string.No, null).show();
     }
 
 

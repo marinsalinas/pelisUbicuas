@@ -38,7 +38,7 @@ public class InformacionActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Enviado!!!......", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, R.string.enviado, Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
